@@ -42,3 +42,55 @@ nav ul li {
     display: inline-flex;
     font-size: 30px;
 }
+
+.about-me {
+    padding: 5%;
+    display: inline-block;
+}
+
+.about-me, .about-me h2, .about-me p {
+    /* Temporary color */
+    background-color: aqua;
+}
+
+.about-me img {
+    width: 300px;
+    height: 375px;
+    float: left;
+    padding: 0 5%;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.bio-text {
+    text-indent: 5%;
+}
+
+main, main h2, main ul, main ul li {
+    /* Temporary color */
+    background-color: plum;
+}
+
+main h2 {
+    text-align: center;
+}
+
+/* .project-list {
+    display: flex;
+    flex-flow: row wrap;
+} */
+
+.project img {
+    width: 20%;
+    height: 20%;
+}
+
+main ul li {
+    font-size: 24px;
+}
