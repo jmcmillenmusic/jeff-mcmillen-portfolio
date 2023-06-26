@@ -8,6 +8,16 @@ nav, h1, nav ul, nav ul li, a {
     background-color: cadetblue;
 }
 
+a {
+    /* Temporary color */
+    color: black;
+}
+
+a:hover {
+    /* Temporary color */
+    color: white;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
