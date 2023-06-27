@@ -72,7 +72,7 @@ p {
     text-indent: 5%;
 }
 
-main, main h2, main ul, main ul li {
+main, main h2, .project-list, .project, .project p {
     /* Temporary color */
     background-color: plum;
 }
@@ -89,8 +89,4 @@ main h2 {
 .project img {
     width: 20%;
     height: 20%;
-}
-
-main ul li {
-    font-size: 24px;
 }
