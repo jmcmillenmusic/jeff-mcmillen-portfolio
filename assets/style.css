@@ -81,12 +81,26 @@ main h2 {
     text-align: center;
 }
 
-/* .project-list {
+.project-list {
     display: flex;
     flex-flow: row wrap;
-} */
+    justify-content: center;
+}
+
+.project {
+    padding: 5%;
+    width: 40%;
+    height: 40%;
+}
 
 .project img {
-    width: 20%;
-    height: 20%;
+    width: 100%;
+}
+
+.project p {
+    text-align: center;
+}
+
+#main-project {
+    width: 90%;
 }
