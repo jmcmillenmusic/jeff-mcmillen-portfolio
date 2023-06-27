@@ -72,7 +72,7 @@ p {
     text-indent: 5%;
 }
 
-main, main h2, main ul, main ul li {
+main, main h2, .project-list, .project, .project p {
     /* Temporary color */
     background-color: plum;
 }
@@ -81,16 +81,31 @@ main h2 {
     text-align: center;
 }
 
-/* .project-list {
+.project-list {
     display: flex;
     flex-flow: row wrap;
-} */
-
-.project img {
-    width: 20%;
-    height: 20%;
+    justify-content: center;
 }
 
-main ul li {
-    font-size: 24px;
+.project {
+    padding: 5%;
+    width: 40%;
+    height: 40%;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project p {
+    text-align: center;
+}
+
+#main-project {
+    width: 90%;
+}
+
+.contact, .contact h2, .contact ul, .contact li {
+    /* Temporary color */
+    background-color:salmon;
 }
