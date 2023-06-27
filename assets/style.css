@@ -104,3 +104,8 @@ main h2 {
 #main-project {
     width: 90%;
 }
+
+.contact, .contact h2, .contact ul, .contact li {
+    /* Temporary color */
+    background-color:salmon;
+}
