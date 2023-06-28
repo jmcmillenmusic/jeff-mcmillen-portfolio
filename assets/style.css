@@ -1,17 +1,21 @@
+/* General attributes about font-family, page color, and text color */
 * {
     background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
 
+/* Color for clickable links */
 a {
     color: #00ff99;
 }
 
+/* Color for clickable links when a user hovers over them */
 a:hover {
     color: #00ffff;
 }
 
+/* Sets the navbar to have the name on the left and links on the right */
 nav {
     display: flex;
     justify-content: space-between;
@@ -19,10 +23,12 @@ nav {
     padding: 0 5%;
 }
 
+/* Makes the name the largest text on the page */
 h1 {
     font-size: 48px;
 }
 
+/* Removes bullet points and gives the links some space */
 nav ul {
     display: flex;
     list-style-type: none;
@@ -32,16 +38,19 @@ nav ul {
     justify-content: space-evenly;
 }
 
+/* Allows links to be in a link and at a defined size */
 nav ul li {
     display: inline-flex;
     font-size: 30px;
 }
 
+/* Allows h1 to still be above the text */
 .about-me {
     padding: 5%;
     display: inline-block;
 }
 
+/* Floats the image to the left of the rest of the About Me section and sets its size */
 .about-me img {
     width: 300px;
     height: 375px;
@@ -49,75 +58,90 @@ nav ul li {
     padding: 0 5%;
 }
 
+/* Sets the size and color of all occurrences of h2 */
 h2 {
     font-size: 36px;
     color: #0099ff;
 }
 
+/* Sets the size and spacing of the paragraph */
 p {
     font-size: 24px;
     line-height: 1.5;
 }
 
+/* Indents the bio-text */
 .bio-text {
     text-indent: 8%;
 }
 
+/* Centers this h2 heading */
 main h2 {
     text-align: center;
 }
 
+/* Allows the content to wrap in rows */
 .project-list {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
+/* Sets the sizes of all projects in .project-list */
 .project {
     padding: 5%;
     width: 30%;
     height: 30%;
 }
 
+/* Sets image sizes and borders of project images */
 .project img {
     width: 100%;
     border: 5px solid #00ff99;
 }
 
+/* Sets border color of images for project when the user hovers over them */
 .project img:hover {
     border: 5px solid #00ffff;
 }
 
+/* Centers the text under each project */
 .project p {
     text-align: center;
 }
 
+/* Ensures that the main project is larger and most noticeable */
 #main-project {
     width: 80%;
 }
 
+/* Removes bullet points from contact info and flexes them into a row */
 .contact ul {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
 }
 
+/* Centers the Contact h2 */
 .contact h2 {
     text-align: center;
 }
 
+/* Sets the size and spacing for the contact information */
 .contact li {
     display: flex;
     padding: 2%;
     font-size: 24px;
 }
 
+/* Makes all projects a single column on really small mobile devices */
 @media screen and (max-width: 767px) { 
     .project {
         width: 80%;
     }
 }
 
+/* Makes the website mobile-friendly on larger devices */
 @media screen and (max-width: 1024px) {
     * {
         text-align: center;
