@@ -1,6 +1,7 @@
 * {
     /* Temporary color */
     background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav, h1, nav ul, nav ul li, a {
@@ -108,4 +109,19 @@ main h2 {
 .contact, .contact h2, .contact ul, .contact li {
     /* Temporary color */
     background-color:salmon;
+}
+
+.contact ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact li {
+    display: flex;
+    padding: 2%;
 }
