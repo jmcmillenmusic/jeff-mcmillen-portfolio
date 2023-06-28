@@ -1,21 +1,15 @@
 * {
-    /* Temporary color */
-    background-color: whitesmoke;
-}
-
-nav, h1, nav ul, nav ul li, a {
-    /* Temporary color */
-    background-color: cadetblue;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
 }
 
 a {
-    /* Temporary color */
-    color: black;
+    color: #00ff99;
 }
 
 a:hover {
-    /* Temporary color */
-    color: white;
+    color: #00ffff;
 }
 
 nav {
@@ -48,11 +42,6 @@ nav ul li {
     display: inline-block;
 }
 
-.about-me, .about-me h2, .about-me p {
-    /* Temporary color */
-    background-color: aqua;
-}
-
 .about-me img {
     width: 300px;
     height: 375px;
@@ -62,19 +51,16 @@ nav ul li {
 
 h2 {
     font-size: 36px;
+    color: #0099ff;
 }
 
 p {
     font-size: 24px;
+    line-height: 1.5;
 }
 
 .bio-text {
-    text-indent: 5%;
-}
-
-main, main h2, .project-list, .project, .project p {
-    /* Temporary color */
-    background-color: plum;
+    text-indent: 8%;
 }
 
 main h2 {
@@ -89,12 +75,17 @@ main h2 {
 
 .project {
     padding: 5%;
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
 }
 
 .project img {
     width: 100%;
+    border: 5px solid #00ff99;
+}
+
+.project img:hover {
+    border: 5px solid #00ffff;
 }
 
 .project p {
@@ -102,10 +93,59 @@ main h2 {
 }
 
 #main-project {
-    width: 90%;
+    width: 80%;
 }
 
-.contact, .contact h2, .contact ul, .contact li {
-    /* Temporary color */
-    background-color:salmon;
+.contact ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact li {
+    display: flex;
+    padding: 2%;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 767px) { 
+    .project {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    * {
+        text-align: center;
+    }
+    
+    nav {
+        flex-flow: column wrap;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        display: flex;
+        padding: 5%;
+    }
+    
+    .about-me img {
+        float: none;
+    }
+
+    .bio-text {
+        text-indent: 0%;
+    }
+
+    .contact ul {
+        display: block;
+        padding: 2%;
+    }
 }
