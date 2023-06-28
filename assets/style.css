@@ -109,4 +109,43 @@ main h2 {
 .contact li {
     display: flex;
     padding: 2%;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 767px) { 
+    .project {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    * {
+        text-align: center;
+    }
+    
+    nav {
+        flex-flow: column wrap;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        display: flex;
+        padding: 5%;
+    }
+    
+    .about-me img {
+        float: none;
+    }
+
+    .bio-text {
+        text-indent: 0%;
+    }
+
+    .contact ul {
+        display: block;
+        padding: 2%;
+    }
 }
