@@ -2,7 +2,7 @@
 
 ## Description
 
-If I'm going to be a software/web developer, I need to be able to showcase my skills to potential employers who are looking for developers with my skillset, so I've created a website to showcase my works, briefly describe myself, and provide contact information. It's important to be able to view this site on both desktop comuputers and mobile devices, so I set up a few media queries to account for many mobile devices.
+If I'm going to be a software/web developer, I need to be able to showcase my skills to potential employers who are looking for developers with my skillset, so I've created a website to showcase my works, briefly describe myself, and provide contact information. It's important to be able to view this site on both desktop computers and mobile devices, so I set up a few media queries to account for many mobile devices.
 
 ## Installation
 
